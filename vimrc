@@ -24,6 +24,7 @@ nmap <leader>v :tabedit $MYVIMRC<CR>
 " =====================
 " = Behavior Settings =
 " =====================
+set ignorecase
 " Soft tabs
 set expandtab
 set tabstop=2
