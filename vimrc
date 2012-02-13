@@ -15,11 +15,6 @@ Bundle 'kien/ctrlp.vim'
 
 filetype plugin indent on     " required! 
 
-" http://vimcasts.org/episodes/updating-your-vimrc-file-on-the-fly/
-" Source the vimrc file after saving it
-if has("autocmd")
-  autocmd bufwritepost $MYVIMRC source $MYVIMRC
-endif
 " ,v to easily open this file
 let mapleader = ","
 nmap <leader>v :tabedit $MYVIMRC<CR>
@@ -32,3 +27,8 @@ endif
 
 " Show line numbers
 set number
+
+if has("gui_running")
+  set guioptions=egmrt
+endif
+
