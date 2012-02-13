@@ -26,6 +26,7 @@ nmap <leader>v :tabedit $MYVIMRC<CR>
 " Soft tabs
 set expandtab
 set tabstop=2
+set shiftwidth=2
 
 " ===================
 " = Visual Settings =
