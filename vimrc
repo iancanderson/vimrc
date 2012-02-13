@@ -13,6 +13,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-rails'
 Bundle 'kien/ctrlp.vim'
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'scrooloose/nerdcommenter'
 
 filetype plugin indent on     " required! 
 
