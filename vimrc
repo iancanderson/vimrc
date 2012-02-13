@@ -36,7 +36,8 @@ set shiftwidth=2
 syntax enable
 set background=dark
 colorscheme solarized
-set number " Show line numbers
+set number     " Show line numbers
+set hlsearch   " Highlight search results
 
 if has("gui_running")
   set guifont=Droid\ Sans\ Mono:h16
