@@ -12,6 +12,7 @@ Bundle 'gmarik/vundle'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-rails'
 Bundle 'kien/ctrlp.vim'
+Bundle 'altercation/vim-colors-solarized'
 
 filetype plugin indent on     " required! 
 
@@ -29,6 +30,9 @@ set tabstop=2
 " ===================
 " = Visual Settings =
 " ===================
+syntax enable
+set background=dark
+colorscheme solarized
 set number " Show line numbers
 
 if has("gui_running")
