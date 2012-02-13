@@ -19,16 +19,20 @@ filetype plugin indent on     " required!
 let mapleader = ","
 nmap <leader>v :tabedit $MYVIMRC<CR>
 
-" Visual Settings
-" Font
-if has('gui_running')
-  set guifont=Droid\ Sans\ Mono:h16
-endif
+" =====================
+" = Behavior Settings =
+" =====================
+" Soft tabs
+set expandtab
+set tabstop=2
 
-" Show line numbers
-set number
+" ===================
+" = Visual Settings =
+" ===================
+set number " Show line numbers
 
 if has("gui_running")
-  set guioptions=egmrt
+  set guifont=Droid\ Sans\ Mono:h16
+  set guioptions=egmrt " Hide toolbar
 endif
 
