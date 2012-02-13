@@ -18,7 +18,7 @@ filetype plugin indent on     " required!
 " http://vimcasts.org/episodes/updating-your-vimrc-file-on-the-fly/
 " Source the vimrc file after saving it
 if has("autocmd")
-  autocmd bufwritepost vimrc source $MYVIMRC
+  autocmd bufwritepost $MYVIMRC source $MYVIMRC
 endif
 " ,v to easily open this file
 let mapleader = ","
@@ -29,3 +29,6 @@ nmap <leader>v :tabedit $MYVIMRC<CR>
 if has('gui_running')
   set guifont=Droid\ Sans\ Mono:h16
 endif
+
+" Show line numbers
+set number
