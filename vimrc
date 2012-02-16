@@ -14,6 +14,7 @@ Bundle 'tpope/vim-rails'
 Bundle 'kien/ctrlp.vim'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'scrooloose/nerdcommenter'
+Bundle 'kchmck/vim-coffee-script'
 
 filetype plugin indent on     " required! 
 
