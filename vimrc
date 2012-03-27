@@ -16,6 +16,7 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/syntastic'
 Bundle 'kchmck/vim-coffee-script'
+Bundle 'Lokaltog/vim-powerline'
 
 filetype plugin indent on     " required! 
 
