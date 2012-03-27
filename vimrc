@@ -14,6 +14,7 @@ Bundle 'tpope/vim-rails'
 Bundle 'kien/ctrlp.vim'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'scrooloose/nerdcommenter'
+Bundle 'scrooloose/syntastic'
 
 filetype plugin indent on     " required! 
 
@@ -25,10 +26,16 @@ nmap <leader>v :tabedit $MYVIMRC<CR>
 " = Behavior Settings =
 " =====================
 set ignorecase
+
 " Soft tabs
 set expandtab
 set tabstop=2
 set shiftwidth=2
+
+" No junk files
+set nobackup
+set nowritebackup
+set noswapfile
 
 " ===================
 " = Visual Settings =
@@ -43,4 +50,5 @@ if has("gui_running")
   set guifont=Droid\ Sans\ Mono:h16
   set guioptions=egmrt " Hide toolbar
 endif
+
 
