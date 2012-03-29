@@ -39,6 +39,9 @@ set nobackup
 set nowritebackup
 set noswapfile
 
+" Use Mac OS X's find instead of Vim globpath()
+let g:ctrlp_user_command = 'find %s -type f'
+
 " ===================
 " = Visual Settings =
 " ===================
