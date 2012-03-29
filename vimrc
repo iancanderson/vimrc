@@ -24,6 +24,16 @@ filetype plugin indent on     " required!
 let mapleader = ","
 nmap <leader>v :tabedit $MYVIMRC<CR>
 
+" ========================
+" = Plugin Customization =
+" ========================
+" CtrlP Setup
+" Use Mac OS X's find instead of Vim globpath()
+let g:ctrlp_user_command = 'find %s -type f'
+
+" Powerline setup
+set laststatus=2
+
 " =====================
 " = Behavior Settings =
 " =====================
@@ -38,9 +48,6 @@ set shiftwidth=2
 set nobackup
 set nowritebackup
 set noswapfile
-
-" Use Mac OS X's find instead of Vim globpath()
-let g:ctrlp_user_command = 'find %s -type f'
 
 " ===================
 " = Visual Settings =
