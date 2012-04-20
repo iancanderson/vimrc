@@ -32,7 +32,9 @@ nmap <leader>v :tabedit $MYVIMRC<CR>
 let g:ctrlp_user_command = 'find %s -type f'
 
 " Powerline setup
+" https://gist.github.com/2324335
 set laststatus=2
+let g:Powerline_symbols = 'fancy'
 
 " =====================
 " = Behavior Settings =
@@ -59,7 +61,7 @@ set number     " Show line numbers
 set hlsearch   " Highlight search results
 
 if has("gui_running")
-  set guifont=Droid\ Sans\ Mono:h16
+  set guifont=Droid\ Sans\ Mono\ for\ Powerline:h16
   set guioptions=egmrt " Hide toolbar
 endif
 
