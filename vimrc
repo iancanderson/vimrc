@@ -1,4 +1,5 @@
 set nocompatible               " be iMproved
+filetype on                    " calling filetype off when it's already off causes a non-zero exit code
 filetype off                   " required!
 
 set rtp+=~/.vim/bundle/vundle/
